@@ -1,5 +1,5 @@
 const $ = require('jquery')
-
+const sayHello = require("./say-hello");
 const helloWorld = () => console.log("Hello World");
 
 helloWorld();
@@ -16,3 +16,5 @@ $('#codeup').hover(
     $(this).css('background-color', "#FFF");
     }
 );
+
+console.log(sayHello());
